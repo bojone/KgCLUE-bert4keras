@@ -4,7 +4,7 @@
 ## 简介
 - 博客：https://kexue.fm/archives/8802
 
-<img src="https://kexue.fm/usr/uploads/2021/12/1364258025.png" width=480>
+<img src="https://kexue.fm/usr/uploads/2021/12/1364258025.png" width=560>
 
 ## 环境
 - 软件：bert4keras>=0.10.8
