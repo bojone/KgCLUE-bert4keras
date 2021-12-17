@@ -1,6 +1,8 @@
 #! -*- coding: utf-8 -*-
 # KgCLUE baseline
-# 直接用UniLM做Seq2Seq，然后前缀树约束解码
+# 直接用UniLM做Seq2Seq，然后前缀树约束解码，并加入自研的“前瞻”策略；
+# 基础模型为RoFormer-Sim-FT，相比直接用RoFormer/BERT/RoBERTa有2%的提升；
+# 介绍链接：https://kexue.fm/archives/8802
 
 import os, json
 import numpy as np
